@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{AB2185A5-CED3-4584-8D22-FFFB2C9F11F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{E55C8C02-558E-4E5D-A560-3A9B699F020E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.DesignPatterns.Singleton", "Creational\GoF.DesignPatterns.Singleton\GoF.DesignPatterns.Singleton.csproj", "{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.DesignPatterns.FactoryMethod", "Creational\GoF.DesignPatterns.FactoryMethod\GoF.DesignPatterns.FactoryMethod.csproj", "{958AEB5F-4B93-4E86-9970-C45D93DD983F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.DesignPatterns.Builder", "Creational\GoF.DesignPatterns.Builder\GoF.DesignPatterns.Builder.csproj", "{9B952421-500D-4DA6-93C4-C3D3BEA3B93C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.DesignPatterns.Prototype", "Creational\GoF.DesignPatterns.Prototype\GoF.DesignPatterns.Prototype.csproj", "{BC0A2215-603F-4F21-80A0-51F9D011D741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoF.DesignPatterns.AbstractFactory", "Creational\GoF.DesignPatterns.AbstractFactory\GoF.DesignPatterns.AbstractFactory.csproj", "{7303B705-A407-4751-8585-82E1C64CAE98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958AEB5F-4B93-4E86-9970-C45D93DD983F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958AEB5F-4B93-4E86-9970-C45D93DD983F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958AEB5F-4B93-4E86-9970-C45D93DD983F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958AEB5F-4B93-4E86-9970-C45D93DD983F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B952421-500D-4DA6-93C4-C3D3BEA3B93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B952421-500D-4DA6-93C4-C3D3BEA3B93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B952421-500D-4DA6-93C4-C3D3BEA3B93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B952421-500D-4DA6-93C4-C3D3BEA3B93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0A2215-603F-4F21-80A0-51F9D011D741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0A2215-603F-4F21-80A0-51F9D011D741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0A2215-603F-4F21-80A0-51F9D011D741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0A2215-603F-4F21-80A0-51F9D011D741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7303B705-A407-4751-8585-82E1C64CAE98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7303B705-A407-4751-8585-82E1C64CAE98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7303B705-A407-4751-8585-82E1C64CAE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7303B705-A407-4751-8585-82E1C64CAE98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55A4966B-EC6F-49F8-BC1B-007B5C2FD6D9} = {5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}
+		{958AEB5F-4B93-4E86-9970-C45D93DD983F} = {5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}
+		{9B952421-500D-4DA6-93C4-C3D3BEA3B93C} = {5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}
+		{BC0A2215-603F-4F21-80A0-51F9D011D741} = {5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}
+		{7303B705-A407-4751-8585-82E1C64CAE98} = {5E858D70-2C6D-49E6-87C1-96CD20E3C1A9}
+	EndGlobalSection
+EndGlobal
